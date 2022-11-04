@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nlBjpbrLZKM+03Gk9Sk5XciE0bd/ocxhiuhiAVWwqjmjbfitX0plWSMKPR5bqYL5HLU1ZXEWU4MLVL3NyxsjKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikit\\3D Objects\\projects\\petrsu\\object_oriented_programming\\7TableParser.csproj\\TableParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.22621.755\\microsoft.windows.sdk.contracts.10.0.22621.755.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\nunit3testadapter\\4.3.0\\nunit3testadapter.4.3.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

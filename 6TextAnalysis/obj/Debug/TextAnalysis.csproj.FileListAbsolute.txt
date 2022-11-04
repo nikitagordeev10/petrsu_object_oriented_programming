@@ -11,3 +11,16 @@ C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\TextAnalys
 C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\TextAnalysis.csproj\obj\Debug\TextAnalysis.csproj.CopyComplete
 C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\TextAnalysis.csproj\obj\Debug\TextAnalysis.exe
 C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\TextAnalysis.csproj\obj\Debug\TextAnalysis.pdb
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\bin\Debug\HarryPotterText.txt
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\bin\Debug\TextAnalysis.exe.config
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\bin\Debug\TextAnalysis.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\bin\Debug\TextAnalysis.pdb
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\bin\Debug\nunit.framework.dll
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\bin\Debug\nunitlite.dll
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\obj\Debug\TextAnalysis.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\obj\Debug\TextAnalysis.Properties.Resources.resources
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\obj\Debug\TextAnalysis.csproj.GenerateResource.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\obj\Debug\TextAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\obj\Debug\TextAnalysis.csproj.CopyComplete
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\obj\Debug\TextAnalysis.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\6TextAnalysis\obj\Debug\TextAnalysis.pdb

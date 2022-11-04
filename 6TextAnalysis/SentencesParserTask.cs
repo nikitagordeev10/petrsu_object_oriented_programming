@@ -1,5 +1,4 @@
-﻿//using System;
-//using System.Collections.Generic;
+﻿//using System.Collections.Generic;
 
 //namespace TextAnalysis
 //{
@@ -7,45 +6,55 @@
 //    {
 //        public static List<List<string>> ParseSentences(string text)
 //        {
-//            var listSentences = new List<List<string>>();
-//            var sentences = text.Split(new char[] { '.', '!', '?', ';', ':', ')', '(', },
-//                StringSplitOptions.RemoveEmptyEntries);
-
-//            for (var i = 0; i < sentences.Length; i++)
-//            {
-//                var listWords = new List<string>();
-
-//                var words = sentences[i].Split(' ', ',');
-//                foreach (var word in words)
-//                {
-//                    if (WordIsLetter(word))
-//                    {
-//                        listWords.Add(word);
-//                    }
-//                }
-
-//                listSentences.Add(listWords);
-//            }
-
-//            return listSentences;
-//        }
-
-//        public static bool WordIsLetter(string word)
-//        {
-//            var symbols = word.ToCharArray();
-
-//            foreach (var symbol in symbols)
-//            {
-//                if (!char.IsLetter(symbol))
-//                {
-//                    return false;
-//                }
-//            }
-
-//            return true;
+//            var sentencesList = new List<List<string>>();
+//            //...
+//            return sentencesList;
 //        }
 //    }
 //}
+
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace TextAnalysis
+{
+	static class SentencesParserTask
+	{
+		public static List<List<string>> ParseSentences(string text)
+		{
+			var rawSentences = text.ToLower().Split(".!?;:()".ToCharArray()); // разделение текста на предложения
+			var sentences = rawSentences.Select(ParseSentence); // разделение предложений на слова
+
+			return sentences.Where(s => s.Count > 0).ToList();
+		}
+
+		private static List<string> ParseSentence(string text)
+		{
+			var sentence = new List<string>();
+			var word = new StringBuilder(); // класс, представляющий собой изменяемую строку
+			foreach (var l in text)
+			{
+				if (char.IsLetter(l) || l == '\'')
+				{
+					word.Append(l);
+				}
+				else if (word.Length > 0)
+				{
+					sentence.Add(word.ToString());
+					word.Length = 0;
+				}
+			}
+
+			if (word.Length > 0)
+			{
+				sentence.Add(word.ToString()); // обработать последнее слово в предложении
+			}
+
+			return sentence;
+		}
+	}
+}
 
 //Подсказки:
 //1) Разделить текст на предложения можно методом string.Split, указав ему все возможные разделители
@@ -53,34 +62,11 @@
 //3) Распространенная ошибка — забыть обработать последнее слово в предложении.
 //4) Не забудьте отфильтровать предложения, в которых не оказалось слов.
 
-using System.Collections.Generic;
-using System.Linq;
-
-namespace TextAnalysis
-{
-    static class SentencesParserTask
-    {
-        public static List<List<string>> ParseSentences(string text)
-        {
-            var listSentences = new List<List<string>>();
-            char[] separators = new char[] { '.', '!', '?', ';', ':', '(', ')' };
-            text.Split(separators).ToList();
-
-            foreach (var sentence in listSentences)
-                listSentences.Add(GetListOfWords(sentence));
-
-            return listSentences;
-        }
-
-        public static List<string> GetListOfWords(List<string> sentence)
-        {
-            foreach (var word in sentence)
-            {
-                if (word.Contains(",") || word.Contains("."))
-                    word.Remove(word.Length - 1);
-                word.ToLower();
-            }
-            return sentence;
-        }
-    }
-}
+/* Использованные материалы
+ * Парсер предложений( // cyberforum.ru URL: https://www.cyberforum.ru/csharp-beginners/thread2348304.html (дата обращения: 04.11.2022).
+ * Практика «Парсер предложений» после обновления // cyberforum URL: https://www.cyberforum.ru/csharp-beginners/thread2333400.html (дата обращения: 04.11.2022).
+ * String.Trim Метод // Microsoft URL: https://learn.microsoft.com/ru-ru/dotnet/api/system.string.trim?view=xamarinandroid-7.1 (дата обращения: 04.11.2022).
+ * Char.IsLetter Метод // Microsoft URL: https://learn.microsoft.com/ru-ru/dotnet/api/System.Char.IsLetter?view=net-6.0 (дата обращения: 04.11.2022).
+ * оператор => (справочник по C#) // Microsoft URL: https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/lambda-operator (дата обращения: 04.11.2022).
+ * Объяснение работы оператора => // cyberforum URL: https://www.cyberforum.ru/csharp-beginners/thread2343875.html (дата обращения: 04.11.2022).
+ */
