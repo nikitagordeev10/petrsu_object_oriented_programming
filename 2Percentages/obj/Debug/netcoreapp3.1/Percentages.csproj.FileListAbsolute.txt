@@ -1,0 +1,14 @@
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\bin\Debug\netcoreapp3.1\Percentages.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\bin\Debug\netcoreapp3.1\Percentages.deps.json
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\bin\Debug\netcoreapp3.1\Percentages.runtimeconfig.json
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\bin\Debug\netcoreapp3.1\Percentages.runtimeconfig.dev.json
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\bin\Debug\netcoreapp3.1\Percentages.dll
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\bin\Debug\netcoreapp3.1\Percentages.pdb
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.AssemblyInfoInputs.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.AssemblyInfo.cs
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.dll
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.pdb
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Percentages\obj\Debug\netcoreapp3.1\Percentages.genruntimeconfig.cache

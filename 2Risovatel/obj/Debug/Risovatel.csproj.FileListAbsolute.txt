@@ -1,0 +1,11 @@
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\bin\Debug\RefactorMe.exe.config
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\bin\Debug\RefactorMe.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\bin\Debug\RefactorMe.pdb
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\bin\Debug\nunit.framework.dll
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\obj\Debug\Risovatel.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\obj\Debug\RefactorMe.Properties.Resources.resources
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\obj\Debug\Risovatel.csproj.GenerateResource.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\obj\Debug\Risovatel.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\obj\Debug\Risovatel.csproj.CopyComplete
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\obj\Debug\RefactorMe.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Risovatel.csproj\obj\Debug\RefactorMe.pdb

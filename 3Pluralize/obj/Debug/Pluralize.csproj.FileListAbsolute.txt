@@ -1,0 +1,8 @@
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\obj\Debug\Pluralize.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\obj\Debug\Pluralize.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\bin\Debug\rubles.txt
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\bin\Debug\Pluralize.exe.config
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\bin\Debug\Pluralize.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\bin\Debug\Pluralize.pdb
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\obj\Debug\Pluralize.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Pluralize.csproj\obj\Debug\Pluralize.pdb

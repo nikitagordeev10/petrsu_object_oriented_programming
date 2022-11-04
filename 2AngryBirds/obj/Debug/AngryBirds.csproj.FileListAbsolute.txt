@@ -1,0 +1,9 @@
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\bin\Debug\AngryBirds.exe.config
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\bin\Debug\AngryBirds.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\bin\Debug\AngryBirds.pdb
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\bin\Debug\TestingRoom.dll
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.CopyComplete
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\obj\Debug\AngryBirds.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\AngryBirds.csproj\obj\Debug\AngryBirds.pdb

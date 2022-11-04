@@ -1,0 +1,9 @@
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\bin\Debug\Billiards.exe.config
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\bin\Debug\Billiards.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\bin\Debug\Billiards.pdb
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\bin\Debug\TestingRoom.dll
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\obj\Debug\Billiards.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\obj\Debug\Billiards.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\obj\Debug\Billiards.csproj.CopyComplete
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\obj\Debug\Billiards.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_2\Billiards.csproj\obj\Debug\Billiards.pdb

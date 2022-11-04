@@ -1,0 +1,9 @@
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\bin\Debug\Rectangles.exe.config
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\bin\Debug\Rectangles.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\bin\Debug\Rectangles.pdb
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\bin\Debug\TestingRoom.dll
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\obj\Debug\Rectangles.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\obj\Debug\Rectangles.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\obj\Debug\Rectangles.csproj.CopyComplete
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\obj\Debug\Rectangles.exe
+C:\Users\nikit\3D Objects\projects\object_oriented_programming\lab_3\Rectangles.csproj\obj\Debug\Rectangles.pdb
