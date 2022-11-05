@@ -42,20 +42,22 @@ namespace TableParser
     [TestFixture] // Таким атрибутом нужно пометить класс, чтобы система тестирования начала искать в нем тесты.
     public class QuotedFieldTaskTests
     {
-        [TestCase("''", 0, "", 2)] // не нужно помечать атрибутом [Test]
-        [TestCase("'a'", 0, "a", 3)] // каждый такой атрибут станет отдельным тестом
+        //[TestCase("''", 0, "", 2)] // не нужно помечать атрибутом [Test]
+        //[TestCase("'a'", 0, "a", 3)] // каждый такой атрибут станет отдельным тестом
 
-        public void Test(string line, int startIndex, string expectedValue, int expectedLength)
-        {
-            var actualToken = QuotedFieldTask.ReadQuotedField(line, startIndex);
-            Assert.AreEqual(new Token(expectedValue, startIndex, expectedLength), actualToken);
-        }
+        //public void Test(string line, int startIndex, string expectedValue, int expectedLength)
+        //{
+        //    var actualToken = QuotedFieldTask.ReadQuotedField(line, startIndex);
+        //    Assert.AreEqual(new Token(expectedValue, startIndex, expectedLength), actualToken);
+        //}
 
         // Добавьте свои тесты
-        public void MyTests(string line, int startIndex, string expectedValue, int expectedLength)
+        //[TestMethod] // <= так нужно пометить метод, чтобы система тестирования поняла, что это тест.
+        public void TestSolve() // обратите внимание, что метод не статический.
         {
-            var actualToken = QuotedFieldTask.ReadQuotedField(line, startIndex);
-            Assert.AreEqual(actualToken, new Token(expectedValue, startIndex, expectedLength));
+            //Assert:
+            Assert.AreEqual(("''", 0), ("", 2));
+            Assert.AreEqual(("bcd ef", 0), ("a", 3));
         }
     }
 
@@ -69,19 +71,20 @@ namespace TableParser
         /// <returns></returns>
         public static Token ReadQuotedField(string line, int startIndex)
         {
-            var tokenValue = new StringBuilder(); 
-            var stopCh = line[startIndex]; // символ выхода из программы
+            var tokenValue = new StringBuilder(); // получаемая строка
+            var stopСharacter = line[startIndex]; // символ выхода из программы
             var i = startIndex + 1; // начинаем проход предложения со 2го символа
             var countQuotes = 1; // т.к. начинаем обход со 2го символа
             while (i < line.Length)
             {
-                
-                if (line[i] == stopCh)
+                // сохраняем символ для выхода из программы
+                if (line[i] == stopСharacter)
                 {
                     countQuotes++;
                     break;
                 }
 
+                // обрабатываем символ экранирования
                 if (line[i] == '\\') 
                 {
                     if (i + 1 == line.Length)
@@ -101,6 +104,8 @@ namespace TableParser
                         i++;
                     }
                 }
+
+                // добавляем в предложение
                 else
                 {
                     tokenValue.Append(line[i]);
@@ -109,10 +114,10 @@ namespace TableParser
             }
             
             // Отправка результата
-            var Value = tokenValue.ToString();
-            var Length = tokenValue.Length + countQuotes;
-            var Position = startIndex;
-            return new Token(Value, Position, Length);
+            var value = tokenValue.ToString();
+            var length = tokenValue.Length + countQuotes;
+            var position = startIndex;
+            return new Token(value, position, length); // Иллюстрация поясняющая семантику свойств класса Token при анализе текста.
         }
     }
 }
@@ -128,6 +133,8 @@ namespace TableParser
  * Туториал по запуску тестов // Ulearn.me URL: https://ulearn.me/course/basicprogramming/Tutorial_po_zapusku_testov_c13df4c1-6fe9-4602-a2a8-c6a5c56a4333 (дата обращения: 04.11.2022).
  * How to solve the error "Must use PackageReference"? // stackoverflow URL: https://stackoverflow.com/questions/58540212/how-to-solve-the-error-must-use-packagereference (дата обращения: 04.11.2022).
  * Ошибка Must use PackageReference // cyberforum URL: https://www.cyberforum.ru/windows-forms/thread2812511.html (дата обращения: 04.11.2022).
+ * Пошаговое руководство. Создание и запуск модульных тестов для управляемого кода // Microsoft URL: https://zetcode.com/csharp/nunit/ (дата обращения: 04.11.2022).
+ * NUnit Documentation Site // NUnit URL: https://docs.nunit.org/ (дата обращения: 04.11.2022).
  */
 
 
