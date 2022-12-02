@@ -1,0 +1,11 @@
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\bin\Debug\Manipulator.exe.config
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\bin\Debug\Manipulator.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\bin\Debug\Manipulator.pdb
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\bin\Debug\nunit.framework.dll
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\obj\Debug\manipulator.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\obj\Debug\Manipulation.Properties.Resources.resources
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\obj\Debug\manipulator.csproj.GenerateResource.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\obj\Debug\manipulator.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\obj\Debug\manipulator.csproj.CopyComplete
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\obj\Debug\Manipulator.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\10Manipulator\obj\Debug\Manipulator.pdb

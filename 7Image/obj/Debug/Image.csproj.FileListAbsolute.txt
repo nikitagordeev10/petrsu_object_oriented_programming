@@ -1,0 +1,8 @@
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\bin\Debug\eurobot.bmp
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\bin\Debug\Recognizer.exe.config
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\bin\Debug\Recognizer.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\bin\Debug\Recognizer.pdb
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\obj\Debug\Image.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\obj\Debug\Image.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\obj\Debug\Recognizer.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\8Image\obj\Debug\Recognizer.pdb

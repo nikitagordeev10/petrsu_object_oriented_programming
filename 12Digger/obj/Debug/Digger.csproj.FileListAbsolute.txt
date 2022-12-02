@@ -1,0 +1,16 @@
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\Images\Digger.png
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\Images\Gold.png
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\Images\Monster.png
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\Images\Sack.png
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\Images\Terrain.png
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\11-digger.exe.config
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\11-digger.exe
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\11-digger.pdb
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\bin\Debug\nunit.framework.dll
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\obj\Debug\Digger.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\obj\Debug\Digger.Properties.Resources.resources
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\obj\Debug\Digger.csproj.GenerateResource.cache
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\obj\Debug\Digger.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\obj\Debug\Digger.csproj.CopyComplete
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\obj\Debug\11-digger.exe
+C:\Users\nikit\3D Objects\petrsu\object_oriented_programming\12Digger\obj\Debug\11-digger.pdb

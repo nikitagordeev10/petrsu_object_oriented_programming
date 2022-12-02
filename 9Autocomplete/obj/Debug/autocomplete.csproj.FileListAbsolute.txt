@@ -1,0 +1,15 @@
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\bin\Debug\dic\adjectives.txt
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\bin\Debug\dic\nouns.txt
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\bin\Debug\dic\verbs.txt
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\bin\Debug\Autocomplete.exe.config
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\bin\Debug\Autocomplete.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\bin\Debug\Autocomplete.pdb
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\bin\Debug\nunit.framework.dll
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\autocomplete.csproj.AssemblyReference.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\Autocomplete.AutocompleteForm.resources
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\Autocomplete.Properties.Resources.resources
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\autocomplete.csproj.GenerateResource.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\autocomplete.csproj.CoreCompileInputs.cache
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\autocomplete.csproj.CopyComplete
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\Autocomplete.exe
+C:\Users\nikit\3D Objects\projects\petrsu\object_oriented_programming\9Autocomplete.csproj\obj\Debug\Autocomplete.pdb

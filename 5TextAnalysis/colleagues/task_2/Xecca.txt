@@ -1,0 +1,105 @@
+﻿using System.Collections.Generic;
+using System;
+
+namespace TextAnalysis
+{
+    static class FrequencyAnalysisTask
+    {
+        public static Dictionary<string, Dictionary<string, int>>
+                PutPairsInDict(string firstWord, string secondWord, 
+                Dictionary<string, Dictionary<string, int>> dict)
+        {
+            if (!dict.ContainsKey(firstWord))
+            {
+                Dictionary<string, int> secondPair = new Dictionary<string, int>();
+                secondPair.Add(secondWord, 1);
+                dict.Add(firstWord, secondPair);
+            }
+            else
+            {
+                if (dict[firstWord].ContainsKey(secondWord))
+                {
+                    int count = 0;
+                    dict[firstWord].TryGetValue(secondWord, out count);
+                    dict[firstWord].Remove(secondWord);
+                    dict[firstWord].Add(secondWord, count + 1);
+                }
+                else
+                    dict[firstWord].Add(secondWord, 1);
+            }
+
+            return dict;
+        }
+
+        public static Dictionary<string, string> AddPairInResultDict(
+            Dictionary<string, Dictionary<string, int>> dict,
+            Dictionary<string, string> result, string firstKey, int compKeyVal)
+        {
+            string compKey = "";
+            foreach (var secDict in dict[firstKey])
+            {
+                if (compKeyVal == 0)
+                {
+                    compKey = secDict.Key;
+                    compKeyVal = secDict.Value;
+                }
+                else
+                {
+                    if (compKeyVal == secDict.Value)
+                        if (string.CompareOrdinal(compKey, secDict.Key) > 0)
+                            compKey = secDict.Key;
+                    if (secDict.Value > compKeyVal)
+                    {
+                        compKey = secDict.Key;
+                        compKeyVal = secDict.Value;
+                    }
+                }
+            }
+            result.Add(firstKey, compKey);
+
+            return result;
+        }
+
+        public static Dictionary<string, string> CompareAndAddInResultDict(
+            Dictionary<string, Dictionary<string, int>> dict,
+            Dictionary<string, string> result)
+        {
+            foreach (var firstKey in dict.Keys)
+            {
+                if (dict[firstKey].Values.Count != 1)
+                    AddPairInResultDict(dict, result, firstKey, 0);
+                else
+                    foreach (var secondKey in dict[firstKey])
+                    {
+                        result.Add(firstKey, secondKey.Key);
+                        break;
+                    }
+            }
+
+            return result;
+        }
+
+        public static Dictionary<string, string> GetMostFrequentNextWords(List<List<string>> text)
+        {
+            var result = new Dictionary<string, string>();
+            var dict = new Dictionary<string, Dictionary<string, int>>();
+
+            // make list with all bigrams and threegrams from sentence (in text)
+            foreach (var sentence in text)
+                for (int i = 0; i < sentence.Count; i++)
+                    if (i + 1 < sentence.Count)
+                    {
+                        //var bigramPair = sentence[i] + " " + sentence[i + 1];
+                        dict = PutPairsInDict(sentence[i],
+                            sentence[i + 1], dict);
+                        if (i + 2 < sentence.Count)
+                            dict = PutPairsInDict(sentence[i] + " "
+                                + sentence[i + 1], sentence[i + 2], dict);
+                    }
+            // compare keys inside Dict with another keys
+            result = CompareAndAddInResultDict(dict, result);
+
+            return result;
+        }
+    }
+}
